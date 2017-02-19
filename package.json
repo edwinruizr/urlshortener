@@ -1,0 +1,20 @@
+{
+  "name": "urlshortner-edwinruizr",
+  "version": "1.0.0",
+  "description": "Shortens a url that is passed as a parameter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "shortner"
+  ],
+  "author": "Edwin Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "google-url": "0.0.4",
+    "googleapis": "^16.1.0"
+  }
+}

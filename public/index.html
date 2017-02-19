@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>URL Shortener Microservice</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="header text-center">
+                URL Shortener Microservice <i class="glyphicon glyphicon-transfer"></i>
+            </h1>
+                <h3>User stories:</h3>
+                <ul>
+                <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.<i class="glyphicon glyphicon-check"></i></li>
+                <li>When I visit that shortened URL, it will redirect me to my original link.<i class="glyphicon glyphicon-check"></i></li>
+                </ul>
+            <h3>Example usage:</h3>
+            <code>https://edwinruizr-api-project-edwinruizr.c9users.io/https://codepen.io</code><br>
+            
+            <h3>Example output:</h3>
+            <code>
+                {"original_url":"https://codepen.io","short_url":"https://goo.gl/IuqWJ"}
+            </code>
+            
+            <h3>Usage:</h3>
+            <code>
+                https://goo.gl/IuqWJ
+            </code>
+            
+            <h3>Will Redirect me to:</h3>
+            <code>
+                https://codepen.io
+            </code>
+        </div>
+    </body>
+</html>
