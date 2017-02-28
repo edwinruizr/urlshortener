@@ -4,7 +4,7 @@
 -When I visit that shortened URL, it will redirect me to my original link.
 
 ##Example usage:
-  https://urlshortener-edwinruizr.herokuapp.com/https://codepen.io</code><br>
+  https://urlshortener-edwinruizr.herokuapp.com/https://codepen.io
             
 ###Example output:
   {"original_url":"https://codepen.io","short_url":"https://goo.gl/IuqWJ"}
